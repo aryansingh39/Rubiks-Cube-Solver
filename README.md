@@ -2,11 +2,11 @@
 
 A comprehensive C++ implementation of multiple Rubik's Cube solving algorithms, featuring various data structures and optimization techniques.
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates advanced algorithmic problem-solving through the implementation of four different cube-solving approaches, each optimized for different scenarios. The solver supports multiple cube representations and uses pattern databases for enhanced performance.
 
-## ✨ Features
+##  Features
 
 - **Multiple Solving Algorithms**
   - DFS (Depth-First Search) with depth limiting
@@ -24,14 +24,14 @@ This project demonstrates advanced algorithmic problem-solving through the imple
   - Corner heuristic functions
   - Efficient move generation and validation
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** C++14
 - **Build System:** CMake 3.20+
 - **Data Structures:** Arrays, Bitboards, Hash Tables
 - **Algorithms:** Graph Search, Heuristic Functions, Pattern Matching
 
-## 📁 Project Structure
+##  Project Structure
 
 ├── Model/ # Cube representation classes
 │ ├── RubiksCube.h # Base cube interface
@@ -49,7 +49,7 @@ This project demonstrates advanced algorithmic problem-solving through the imple
 ├── Databases/ # Precomputed pattern data
 └── main.cpp # Testing and demonstration
 
-## 🚀 Building and Running
+##  Building and Running
 
 ### Prerequisites
 - C++14 compatible compiler (GCC 7+, Clang 5+, MSVC 2017+)
@@ -70,7 +70,7 @@ This project demonstrates advanced algorithmic problem-solving through the imple
 The main.cpp file contains various test cases demonstrating different solvers. Uncomment specific sections to test different algorithms:
 
 
-## 🧮 Algorithm Comparison
+##  Algorithm Comparison
 
 | Algorithm | Time Complexity | Space Complexity | Optimality | Use Case |
 |-----------|----------------|------------------|------------|----------|
@@ -79,20 +79,20 @@ The main.cpp file contains various test cases demonstrating different solvers. U
 | IDDFS | O(b^d) | O(d) | Yes | Memory-efficient optimal |
 | IDA* | O(b^d) | O(d) | Yes | Fastest optimal solutions |
 
-## 🔧 Customization
+##  Customization
 
 - **Adding New Algorithms:** Extend the base solver class
 - **Custom Heuristics:** Implement new pattern databases
 - **Different Cube Sizes:** Modify cube representation classes
 - **Performance Tuning:** Adjust search parameters and optimizations
 
-## 📊 Performance
+##  Performance
 
 - **Average solve time:** < 2 seconds for scrambled cubes
 - **Memory usage:** Optimized through bitboard representation
 - **Solution length:** Near-optimal move sequences
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Areas for improvement:
 - Additional solving algorithms (CFOP, Roux, etc.)
@@ -100,6 +100,6 @@ Contributions welcome! Areas for improvement:
 - Performance optimizations
 - Cross-platform compatibility
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
