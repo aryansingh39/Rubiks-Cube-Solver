@@ -65,7 +65,7 @@ This project demonstrates advanced algorithmic problem-solving through the imple
 
 4. **Run the solver:**
 
-## 🎮 Usage
+## Usage
 
 The main.cpp file contains various test cases demonstrating different solvers. Uncomment specific sections to test different algorithms:
 
